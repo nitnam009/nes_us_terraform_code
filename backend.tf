@@ -1,8 +1,8 @@
 terraform {
   backend "s3" {
-    bucket = "terraformstate6sept"
+    bucket = "latestbucketforus"
     key    = "eks/terraform.tfstate"
-    region = "eu-north-1"
+    region = "us-east-1"
   }
 }
 
